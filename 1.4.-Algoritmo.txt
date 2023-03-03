@@ -1,0 +1,31 @@
+//Algoritmo para imitar la logica de una calculadora
+
+Definir las variables i, resultado,A,B,simbolo;
+
+1.- Inicio
+2.- Solicitar el primer número y almacenarlo en una variable (A)
+3.- Solicitar el símbolo de operación y almacenarlo en una variable (simbolo).
+4.- Hacer si(simbolo=="*" || simbolo=="/" || simbolo=="+" || simbolo=="-")
+	4.1: Entonces: Solicitar el primer número y almacenarlo en una variable (B);
+		4.1.1.- Solicitar confirmacion del usuario y almacenarlo en (valid)
+		4.1.2.- Hacer si(valid=="=")
+			4.1.2.1.- Hacer si(simbolo=="+")
+				4.1.2.1.1.- Entonces: Definir resultado como (A+B)
+				4.1.2.1.2.- Imprimir (A+" "+simbolo+" "+B+" = "+result)
+			
+			4.1.2.2.- Hacer si(simbolo=="-") 
+				4.1.2.2.1.- Entonces:Definir resultado como (A-B)
+				4.1.2.2.2.- Imprimir (A+" "+simbolo+" "+B+" = "+result)
+
+			4.1.2.3.- Hacer si(simbolo=="*") 
+				4.1.2.3.1.- Entonces:Definir resultado como (A*B)
+				4.1.2.3.2.- Imprimir (A+" "+simbolo+" "+B+" = "+result)
+
+			4.1.2.4.- Hacer si(simbolo=="/" && B!=0) 
+				4.1.2.4.1.- Entonces:Definir resultado como (A/B)
+				4.1.2.4.2.- Imprimir (A+" "+simbolo+" "+B+" = "+result)
+
+		4.1.3.- Si no:Imprimir un mensaje "Operación Cancelada".
+
+	4.2.- Si no:Imprimir un mensaje "Simbolo de operacion inválido".
+5.- Fin

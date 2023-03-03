@@ -1,0 +1,30 @@
+ALGORITMO PARA RESOLVER ECUACIONES DE SEGUNDO GRADO
+
+
+Entrada: ValorA, ValorB, ValorC.
+Salida: ResultadoPositivo, ResultadoNegativo.
+
+Variables: ValorA, ValorB, ValorC, ResultadoPositivo, ResultadoNegativo, Raiz, Radicando.
+
+Proceso ResolverEcuaciones
+
+	Escribir("Ingrese el valor del coeficiente de x²: ");
+	Leer(A);
+	Escribir("Ingrese el valor del coeficiente de x: ");
+	Leer(B);
+	Escribir("Ingrese el valor de c: ");
+	Leer(C);
+	Raiz ← (B^2)-(4*A*B);
+	Si (Raiz >= 0 ) entonces
+
+	radicando ← Raiz^(1/2);
+	Positivo ← ((-1*b)+radicando)/(2*a);
+	Negativo ← ((-1*b)+((-1)*radicando))/(2*a);
+	Escribir("X+: "+Positivo);
+	Escribir("-+: "+Negativo);
+
+	DeOtraManera
+	Escribir("Ya que el discriminante es menor que 0 no hay soluciones reales.");
+	
+FinProceso
+

@@ -1,0 +1,14 @@
+// Programa 1.1 Programa que otorgado un marcador final de un partido de futbol soccer, indica cual de ambos equipos
+fue el ganador
+
+1.-Inicio
+2.-Solicitar los goles anotados por el primer equipo.
+3.-Almacenarla en una variable (GolEquipo1).
+4.-Solicitar los goles anotados por el segundo equipo.
+5.-Almacenarla en una variable (GolEquipo2).
+6.-Hacer si(GolEquipo1 == GolEquipo2)
+	6.1.- Entonces: Imprimir un mensaje indicando "El resultado del partido fue un empate".
+	6.2.- Si no: Hacer si(GolEquipo1 > GolEquipo2)
+		6.2.1.- Entonces: Imprimir un mensaje indicando "Equipo ganador fue el Equipo 1".
+		6.2.2.- Si no: Imprimir un mensaje indicando "Equipo ganador fue el Equipo 2".
+7.- Fin

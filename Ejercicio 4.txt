@@ -1,0 +1,17 @@
+ALGORITMO PPARA OBTENER EL VOLTAJE, DADOS LA CORRIENTE Y RESISTENCIA
+
+Entrada: Corriente, Resistencia.
+Salida: Voltaje.
+
+Variables: Corriente, Resistencia, Voltaje: float.
+
+Proceso CalculoDeVoltaje
+
+	Escribir("Ingrese el valor de la corriente: ");
+	Leer(Corriente);
+	Escribir("Ingrese el valor de la resistencia: ");
+	Leer(Resistencia);
+	Voltaje ← Corriente * Resistencia;
+	Escribir("El voltaje fue igual a "+Voltaje+"volts");  
+
+FinProceso

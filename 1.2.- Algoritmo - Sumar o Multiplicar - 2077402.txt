@@ -1,0 +1,18 @@
+// Programa 1.2 Programa que permite al usuario elegir entre multiplicar y sumar 2 números
+
+(Versión modificada por que no se hacer bucles en texto)
+
+1.- Inicio
+2.- Solicitar el símbolo de operacion entre '+' y ' * '.
+3.- Almacenarla en una variable (operacion).
+4.- Solicitar el primer número
+5.- Almacenarla en una variable (A).
+6.- Solicitar el segundo número
+7.- Almacenarla en una variable (B).
+8.- Hacer si(operacion=="+")
+	8.1.- Entonces: (A + B) y almacenarla en la variable resultado.
+	8.2.- Imprimir el mensaje "El resultado de "+A+" + "+B+" es igual a = " +resultado
+	8.3.-Si no Hacer:
+		8.3.1.- Entonces: (A * B) y almacenarla en la variable resultado.
+		8.3.2.- Imprimir el mensaje "El resultado de "+A+" × "+B+" es igual a = " +resultado
+9.- Fin

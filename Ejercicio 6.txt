@@ -1,0 +1,23 @@
+ALGORITMO PARA OBTENER EL VALOR DE LA VELOCIDAD DADO LA DISTANCIA Y EL TIEMPO
+
+Entrada: Distancia, Tiempo.
+Salida: Velocidad.
+
+Variables: Distancia, Tiempo, Velocidad
+
+Proceso CalculaVelocidad
+
+	Escribir("Ingrese el valor de la distancia: ");
+	Leer(Distancia);
+	Escribir("Ingrese el tiempo que tarda en recorrer dicha distancia: ");
+	Leer(Tiempo);
+
+	Si (tiempo >= 0) entonces
+	Velocidad ← Distancia/Tiempo
+	Escribir("El valor de la velocidad fue de: "+ Velocidad+"m/s");
+
+	DeOtraForma
+	Escribir("El tiempo no puede ser negativo);
+
+FinProceso	
+
